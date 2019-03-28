@@ -1,0 +1,19 @@
+<h3 class="card-header text-center font-weight-bold text-uppercase py-4">Update result</h3>
+<form class="center-block" style="padding-top: 60px;">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" ng-model="vm.entryToUpdate.name"
+               placeholder="Enter name">
+
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email"  ng-model="vm.entryToUpdate.email">
+    </div>
+    <div class="form-group">
+        <label for="number">Number</label>
+        <input type="text" class="form-control" id="number" placeholder="Enter number"  ng-model="vm.entryToUpdate.number">
+    </div>
+
+    <button type="submit" class="btn btn-primary" ng-click="vm.updateUser()">Submit</button>
+</form>

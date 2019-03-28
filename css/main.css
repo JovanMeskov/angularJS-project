@@ -1,0 +1,11 @@
+body {
+   padding-top: 50px;
+ }
+.pole {
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 90px;
+  width: 350px;
+  height: 35px;
+  border-radius: 6px;
+}
